@@ -75,8 +75,8 @@ Here are some suggestions for further exploring additional features:
 2. **Branching**: Explore strategies such as GitFlow or GitHub Flow to optimize workflow
 3. **GitHub Actions**: Automate processes using GitHub Actions to streamline development workflow
 4. **Issue Tracking**: Utilize GitHub's issue tracking system for effective task management and project organization
-5. **Documentation**: Create comprehensive README files and use GitHub's wiki feature for project documentation
-6. **Open-Source Contributions**: Contribute to open-source projects by forking repos and submitting pull requests
+5. **Documentation**: Create comprehensive README files and use GitHub's wiki feature
+6. **Open-Source Contributions**: Contribute to open-source projects by forking and submitting pull requests
 
 
 
