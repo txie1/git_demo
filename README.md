@@ -47,6 +47,16 @@ To exit, insert your "commit message" on the first line. Then press "esc", type 
 
 Push the changes onto Github using ```git push```.
 
+## 4. Update Local Branch
+The `git pull` command is used to update your local repository with the latest changes from the remote repository. It's a good idea to pull regularly on the branches you are working on locally. It combines the `git fetch` command (which retrieves the latest changes from the remote repository) and the `git merge` command (which incorporates those changes into your local branch).
+
+These are some common usages: 
+1. `git pull --rebase`: Update your local branch with the latest remote commits while rewriting your local commits to occur after the new remote commits, avoiding a merge commit
+2. `git pull --force`: Occasionally, you may encounter conflicts that cannot be automatically resolved by Git. You can forcefully overwrite your local changes with the latest changes from the remote repository. Be cautious when using this option, as it discards your local commits irreversibly
+3. `git pull --all`: Fetch all remotes - this can be helpful when you want to synchronize all branches with their respective remote counterparts
+4. `git pull --prune`: Remove deleted remote tracking branches
+
+
 ## 4. History
 You may check all the changes made using the command `git log`, which displays a list of commits to the repository. There are many options and parameters to play around with when displaying the entries, for example:
 ```
@@ -61,12 +71,12 @@ git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'
 ## 5. What's Next?
 Here are some suggestions for further exploring additional features:
 
-1. **Collaborate**: invite collaborators and leverage pull requests for code review
-2. **Branching**: explore strategies such as GitFlow or GitHub Flow to optimize workflow
-3. **GitHub Actions**: automate processes using GitHub Actions to streamline development workflow
-4. **Issue Tracking**: utilize GitHub's issue tracking system for effective task management and project organization
-5. **Documentation**: create comprehensive README files and use GitHub's wiki feature for project documentation
-6. **Open-Source Contributions**: contribute to open-source projects by forking repos and submitting pull requests
+1. **Collaborate**: Invite collaborators and leverage pull requests for code review
+2. **Branching**: Explore strategies such as GitFlow or GitHub Flow to optimize workflow
+3. **GitHub Actions**: Automate processes using GitHub Actions to streamline development workflow
+4. **Issue Tracking**: Utilize GitHub's issue tracking system for effective task management and project organization
+5. **Documentation**: Create comprehensive README files and use GitHub's wiki feature for project documentation
+6. **Open-Source Contributions**: Contribute to open-source projects by forking repos and submitting pull requests
 
 
 
