@@ -9,9 +9,9 @@ Forking allows you to create a personal copy of the repository, while cloning cr
 A new branch can be created with command: ```git branch <branch-name>```. Then you may switch to the new branch using ```git checkout <branch-name>```. 
 
 ### 3. Add and Commit
-Check the status of your changes using comand ```git status```, and add the modified files with ```add <file1> <file2> ...``` or simply ```add .``` to add all of the files. Check the status again to ensure all changes are staged ```git status```. Then commit the changes to your branch using ```git commit -m "updaded readme"``` Don't forget to add the commit message!
+Check the status of your changes using comand ```git status```, and add the modified files with ```add <file1> <file2> ...``` or simply ```add .``` to add all of the files. Check the status again to ensure all changes are staged ```git status```. Then commit the changes to your branch using ```git commit -m "updaded readme"```.
 
-Otherwise you'll see the following message.
+If you forgot the add the commit message and see the following:
 
 ```
 |
@@ -24,7 +24,7 @@ Otherwise you'll see the following message.
 #	modified:   hello.html
 #
 ```
-To exit, press "esc" and type ":wq" then Enter.
+To exit, insert your "commit message" on the first line. Then press "esc", type ":wq" and then Enter.
 
 
 Push the changes onto github using ```git push```.
