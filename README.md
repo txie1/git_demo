@@ -1,7 +1,30 @@
 # README
 
-This is a demo!
+This is a quick demo and practice for basic Git commands.
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#new-repo">New Repository</a>
+    </li>
+    <li>
+      <a href="#new-branch">New Branches</a>
+    </li>
+    <li><a href="#add-commit">Add and Commit</a>
+    </li>
+    <li><a href="#update-local">Update Local Branch</a>
+    </li>
+    <li><a href="#history">History</a>
+    </li>
+    <li><a href="#next">What's Next?</a>
+    </li>
+  </ol>
+</details>
+
+
+<a name="new-repo"></a>
 ## 1. New Repository
 
 Get started in an empty working directory and create an empty directory named `hello`, then create a `hello.html` file in it with the following contents:
@@ -20,12 +43,14 @@ git commit -m "First Commit"
 
 You may also work with an existing repository. Forking allows you to create a personal copy of the repository, while cloning creates a local copy on your computer. The link to the repository may be obtained through the green "_Code_" button and you may use the Git command: ```git clone <repository-link>```
 
+
+<a name="new-branch"></a>
 ## 2. New Branches
 A new branch can be created with command: ```git branch <branch-name>```. Then you may switch to the new branch using ```git checkout <branch-name>```. 
 Creating a new branch allows you to work on changes without affecting the main code, enabling parallel development and collaboration. It provides a dedicated space for developing features, trying out new ideas, and reviewing code before merging it into the main branch.
 
 
-
+<a name="add-commit"></a>
 ## 3. Add and Commit
 After making changes you may check the status using command ```git status```, and add the modified files with ```add <file1> <file2> ...``` or simply ```add .``` to add all of the files. Check the status again to ensure all changes are staged ```git status```. Then commit the changes to your branch using ```git commit -m "updaded readme"```.
 
@@ -47,6 +72,8 @@ To exit, insert your "commit message" on the first line. Then press "esc", type 
 
 Push the changes onto Github using ```git push```.
 
+
+<a name="update-local"></a>
 ## 4. Update Local Branch
 The `git pull` command is used to update your local repository with the latest changes from the remote repository. It's a good idea to pull regularly on the branches you are working on locally. It combines the `git fetch` command (which retrieves the latest changes from the remote repository) and the `git merge` command (which incorporates those changes into your local branch).
 
@@ -57,6 +84,7 @@ These are some common usages:
 4. `git pull --prune`: Remove deleted remote tracking branches
 
 
+<a name="history"></a>
 ## 5. History
 You may check all the changes made using the command `git log`, which displays a list of commits to the repository. There are many options and parameters to play around with when displaying the entries, for example:
 ```
@@ -68,6 +96,8 @@ git log --pretty=oneline --all
 git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'
 ```
 
+
+<a name="next"></a>
 ## 6. What's Next?
 Here are some suggestions for further exploring additional features:
 
