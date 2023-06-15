@@ -57,7 +57,7 @@ These are some common usages:
 4. `git pull --prune`: Remove deleted remote tracking branches
 
 
-## 4. History
+## 5. History
 You may check all the changes made using the command `git log`, which displays a list of commits to the repository. There are many options and parameters to play around with when displaying the entries, for example:
 ```
 git log --pretty=oneline --max-count=2
@@ -68,7 +68,7 @@ git log --pretty=oneline --all
 git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'
 ```
 
-## 5. What's Next?
+## 6. What's Next?
 Here are some suggestions for further exploring additional features:
 
 1. **Collaborate**: Invite collaborators and leverage pull requests for code review
